@@ -1,10 +1,10 @@
 package com.basic;
 
-public class StringComparision {
+public class StringComparison {
 
 	public static void main(String[] args) {
 
-		StringComparision s = new StringComparision();
+		StringComparison s = new StringComparison();
 
 		String s1 = "code";
 		String s2 = "CODE";
