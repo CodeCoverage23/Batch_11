@@ -1,4 +1,4 @@
-package com.basic;
+package com.basic.string;
 
 public class StringImmutabilityDemo {
 
