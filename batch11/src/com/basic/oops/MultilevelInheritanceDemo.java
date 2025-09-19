@@ -22,6 +22,8 @@ class BabyDog extends Dog1 {
 
 public class MultilevelInheritanceDemo {
 
+	int a = 10;
+
 	public static void main(String[] args) {
 
 		BabyDog d = new BabyDog();
@@ -30,6 +32,10 @@ public class MultilevelInheritanceDemo {
 		d.bark();
 		d.weep();
 
+	}
+
+	public void getInstantVariable() {
+		System.out.println(this.a);
 	}
 
 }
