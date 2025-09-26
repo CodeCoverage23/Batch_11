@@ -4,6 +4,7 @@ class Animal {
 	void eat() {
 		System.out.println("Eating...");
 	}
+
 }
 
 class Dog extends Animal {
@@ -23,6 +24,10 @@ public class SimpleInheritanceDemo {
 		d.eat();
 		d.bark();
 
+	}
+
+	protected void getAnimal() {
+		System.out.println("number of animals");
 	}
 
 }
