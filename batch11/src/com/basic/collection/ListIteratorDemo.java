@@ -24,12 +24,13 @@ public class ListIteratorDemo {
 				listIterator.remove();
 			} else if (value.equals("Sachin")) {
 				listIterator.add("Pavan");
-			} else if (value.equals("Shiva")) {
+			} else if (value.equals("Pavan")) {
 				listIterator.set("Swapnil");
 			}
 		}
 
 		System.out.println(l);
+		System.out.println("-------------------------");
 
 		while (listIterator.hasPrevious()) {
 			String previous = listIterator.previous();
